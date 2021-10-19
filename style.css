@@ -45,6 +45,8 @@ body {
     background: rgba(107, 107, 107, 0.075);
     padding: 1.2rem;
     border-radius: 25px;
+    left:50%;
+    transform: translate(-50%);
 }
 
 .panel h3:hover {
@@ -61,6 +63,7 @@ body {
 .panel.active h3 {
     opacity: 1;
     align-items: center;
+    transition: flex 1.2s ease-in;
 }
 
 @media (max-width: 480px) {
